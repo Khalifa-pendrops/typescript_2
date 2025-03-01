@@ -96,9 +96,6 @@ class TodoList {
 //Instance of TodoList Class
 const todoList = new TodoList();
 
-console.log(todoList.todoItems);
-console.log();
-
 // Adding tasks
 todoList.addTodo("Attend SOTU!", new Date());
 todoList.addTodo("Fill appraisal form", new Date());
